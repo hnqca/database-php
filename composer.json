@@ -1,0 +1,26 @@
+{
+    "name": "hnqca/database-php",
+    "keywords": [
+        "Database",
+        "SQL",
+        "MySQL",
+        "PDO",
+        "Query Builder",
+        "Prepared Statements"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique Cacerez",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hnqca\\Database\\": "src"
+        }
+    }
+}
